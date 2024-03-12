@@ -52,8 +52,6 @@ let personalMovieDB = {
         personalMovieDB.genres[i - 1] = genre;
       }
     }
-  },
-  logGenres: function () {
     personalMovieDB.genres.forEach((item, i) => {
       console.log(`Любимый жанр ${i + 1} - это ${item}`);
     });
@@ -74,4 +72,3 @@ let personalMovieDB = {
 personalMovieDB.showMyDB();
 personalMovieDB.toggleVisibleMyDB();
 personalMovieDB.writeYourGenres();
-personalMovieDB.logGenres();
